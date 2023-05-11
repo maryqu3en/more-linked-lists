@@ -7,7 +7,6 @@ typedef struct Node
     node * next;
 }node;
 
-//nothing more fun than dealing with linked lists
 
 node * deletePosition(node * head, int pos) {
     node * temp= head;
